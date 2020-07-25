@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import './homePage.css';
 import Isotope from './isotope';
 import { WOW } from 'wowjs';
-import { Link } from 'react-router-dom';
-import DulieuProduct from '../ContentProduct/db.json';
 import ProductItem2 from './ProductItem2';
 import {DataContext} from '../ShoppingCart/Context'
 
