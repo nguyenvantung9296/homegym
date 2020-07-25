@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-// import logo from '../images/logo.svg';
-// import { FaAlignRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom'
 import iconnav from './img/toggle.png'
 import './css/Nav.css';
@@ -26,28 +24,18 @@ export default class NavBar extends Component {
                 <nav className={this.state.isOpen ? "over-nav menu-open" : "active-menu overlay"}>
                     <i className="fas fa-times" aria-hidden="true" onClick={this.handleToggle} />
                     <div className="logo logo-width-min">
-                        {/* <img src="img/logo.png" alt=""> */}
                         <span className="logo-gym">GYM</span> <span className="logo-home">HOME</span>
                     </div>
                     <div className="nav-middle">
                         <ul>
                         <li><Link to="/" onClick={this.handleToggle}>Trang Chủ</Link></li>
                         <li><Link to="/phong-gym" onClick={this.handleToggle}>Phòng Tập</Link></li>
-                        {/* <li><Link to="/GymHome" onClick={this.handleToggle}>GymHome</Link></li> */}
                         <li><Link to="/Yoga" onClick={this.handleToggle}>YOGA</Link></li>
                         <li><Link to="/Lich-Tap" onClick={this.handleToggle}>Lịch Tập</Link></li>
                         <li><Link to="/HLV-Gym" onClick={this.handleToggle}>HLV gym</Link></li>
-                        {/* <li><Link to="/Products" onClick={this.handleToggle}>Sản Phẩm</Link></li> */}
                         <li><Link to="/ProductPage2" onClick={this.handleToggle}>Sản Phẩm</Link></li>
                         <li><Link to="/khuyenmai" onClick={this.handleToggle}>Khuyến Mãi</Link></li>
                         <li><Link to="/Lien-he" onClick={this.handleToggle}>Liên hệ</Link></li>
-                        
-                            
-                       
-                            
-                           
-                            
-
                         </ul>
                         <div className="nav-cart">
                        
