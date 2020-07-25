@@ -1,7 +1,4 @@
 
-
-
-
 import React from 'react';
 import Nav from './component/Navbar'
 import Foodter from './component/Foodter/foodter'
@@ -25,12 +22,6 @@ function App() {
         <Foodter />
       </div>
     </Router>
-     {/* <div className="app">
-          <Router>
-            <Header />
-            <Section />
-          </Router>
-        </div> */}
     </DataProvider>
   );
 }
