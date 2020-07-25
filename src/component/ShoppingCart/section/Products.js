@@ -1,26 +1,17 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom'
-import {DataContext} from '../Context'
-// import '../css/Products.css';
-// import products from '../../ContentProduct/'
+import { Link } from 'react-router-dom'
+import { DataContext } from '../Context'
 import '../../ContentProduct/SingleProduct.css';
 import ProductRelated from '../../ContentProduct/ProductRelated'
-
-
 export class Products extends Component {
-
     static contextType = DataContext;
-
-
-
     render() {
-        var dem =1;
-       const {products,addCart} = this.context;
-    //    console.log(products)
+        var dem = 1;
+        const { products, addCart } = this.context;
+        //    console.log(products)
         return (
-            
             <div>
-                  <div className="banner-productss banner-product-hero1">
+                <div className="banner-productss banner-product-hero1">
                     <div class="slider-text">
                         <div class="content-text wow bounceInUp" data-wow-delay="0.1s">
                             <h2>WHEY HOME!</h2>
@@ -31,11 +22,11 @@ export class Products extends Component {
                         </div>
                     </div>
                 </div>
-                  {
+                {
                     products.map(item => {
-                    
+
                         if (item.id == parseInt(this.props.match.params.id)) {//neu value.id trung voi this.props.math.param.id,== la dau so sanh,=== la dong nhat
-                       
+
                             return (
                                 <div className="jumbotron jumbotron-fluid" key={item.id}>
                                     <div className="container container-detail">
@@ -55,10 +46,10 @@ export class Products extends Component {
                                                     <div className="product_price wow bounceInRight" data-wow-delay="0.6s"> ${item.price}</div>
                                                 </div>
                                                 <p className="lead">
-                                            
-                                        
-                                         <Link to="/cart" className="cart" onClick={() => addCart(item.id)}>
-                                         Mua ngay
+
+
+                                                    <Link to="/cart" className="cart" onClick={() => addCart(item.id)}>
+                                                        Mua ngay
                                          </Link>
                                                 </p>
                                                 <p className="delivery_hotline wow bounceInRight" data-wow-delay="1s">Gọi giao hàng tận nơi <a href="tel:0333765265" title="Hotline: 0333765265">0333765265</a></p>
@@ -92,7 +83,7 @@ export class Products extends Component {
                                                     {
 
                                                         products.map(item => {
-                                                           
+
                                                             if (item.id != this.props.match.params.id) {
                                                                 if (dem <= 4) { //bien dem khai bao ben tren cung, co 4 sp tuong ung
                                                                     dem++;
@@ -108,7 +99,6 @@ export class Products extends Component {
                                                             }
                                                             return;
                                                         })
-
                                                     }
                                                 </div>
                                             </section>
@@ -129,3 +119,4 @@ export class Products extends Component {
 }
 
 export default Products
+
