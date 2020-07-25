@@ -3,10 +3,8 @@ import {
     Switch,
     Route
 } from "react-router-dom";
-import ProductPage from '../component/ProductPage';
 import ProductPage2 from '../component/ProductPage2'
 import HomePage from '../component/Home/HomePage'
-import ContentProduct from '../component/ContentProduct/ContentProduct';
 import ContentProduct2 from '../component/ShoppingCart/section/Products'
 import Yoga from '../component/YogaPage/yoga';
 import ProductYogaPage from '../component/YogaHlv/ProductYogaPage';
@@ -20,8 +18,6 @@ import LostdatePage from '../component/isotope_LostDate/LostdatePage';
 import Boxing from '../component/Boxing';
 import Cart from '../component/ShoppingCart/section/Cart';
 import OderCart from '../component/ShoppingCart/section/odercart'
-// import GymHomePage from '../component/GymHomePage'
-// import Admin from '../../../admin-coffe/src/component/App'
 
 
 
@@ -33,7 +29,6 @@ class DieuHuongURL extends Component {
                 <Switch>
                     <Route exact path="/" component={HomePage} />
                     <Route exact path="/" component={HomePage} />
-                    <Route exact path="/Products" component={ProductPage} />
                     <Route exact path="/Yoga" component={Yoga} />
                     <Route exact path="/khuyenmai" component={PromotionPage} />
                     <Route exact path="/phong-gym" component={RoomGym} />
@@ -44,11 +39,9 @@ class DieuHuongURL extends Component {
                     <Route exact path="/cart" component={Cart} />
                     <Route exact path="/odercart" component={OderCart} />
                     <Route exact path="/ProductPage2" component={ ProductPage2} />
-                    {/* <Route exact path="/GymHome" component={GymHomePage} /> */}
                     <Route exact path="/chitiet/:slug.:id" component={ProductPtDetail} />
                     <Route exact path="/BlogYoga/:slug.:id" component={ProductContentBlog} />
                     <Route exact path="/hlvYoga/:slug.:id" component={ProductYogaPage} />
-                    <Route exact path="/ContentProduct/:slug.:id" component={ContentProduct} />
                     <Route exact path="/ContentProduct2/:slug.:id" component={ContentProduct2} />
 
                     {/* <Route exact path="/admin" component={Admin}/> */}
