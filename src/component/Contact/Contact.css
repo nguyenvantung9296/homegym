@@ -1,0 +1,50 @@
+
+.divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #3e3e3e;
+    border-radius: 1rem;
+    border-color: #2c3e50 !important;
+  }
+  .svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 2em;
+  overflow: visible;
+  vertical-align: -.125em;
+  color:#ffc219;
+  
+  }
+  .divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .text-secondary {
+  color: #3e3e3e!important;
+  }
+  label{
+  color:black;
+  }
+  .text-center::after {
+    content: "";
+    width: 0%;
+    margin: auto;
+    margin-top: 5px;
+    height: 0px;
+    background: #EA8025;
+    display: block;
+}
+
+button.btn.btn-primary {
+    color: white;
+    background: #23ff18;
+    margin: 15px 0 ;
+    padding:10px 25px;
+}
+section#contact{
+  margin-top:100px;
+}

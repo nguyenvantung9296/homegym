@@ -1,0 +1,324 @@
+.banner-Boxing{
+    position: relative;
+    background: linear-gradient(to right, #0000008f,#0000008f) ,url(../img/page-1_slide01.jpg) center/cover no-repeat;
+    min-height: 65vh;
+}
+
+
+
+/* SECTION2 */
+@media(max-width:1600px){
+.container-sec1{
+  max-width:1400px;
+}
+}
+
+.col-md-6.col-sm-6 .img {
+  width:100%;
+  height:200px;
+  position: relative;
+}
+.col-md-6.col-sm-6 .img img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.row1{
+  margin: 20px 0; 
+  margin-top:100px;
+
+}
+.name-title{
+  width:100%;
+  text-align: center;
+}
+.name-title h2{
+  color:#111111;
+  font-weight: 700;
+  font-size:40px;
+  font-family: "Baloo" !important;
+  letter-spacing: 5px;
+}
+.name-title p{
+  color: #23ff18;
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-size:18px;
+}
+.background-banner2{
+  background: #0000008c;
+}
+.row31{
+  margin: 30px 0;
+}
+.content-row3{
+  text-align: center;
+}
+.content-row3 p{
+padding: 0 10%;
+font-size:18px;
+color:#3e3e3e;
+}
+.button-row3{
+display: inline-block;
+padding: 9px 33px;
+font-size: 14px;
+line-height: 20px;
+font-weight: 700;
+border: 3px solid #23ff18;
+color: #23ff18;
+background: transparent;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-decoration: none;
+}
+
+
+/* SECTION2-VIDEO     */
+.section2-video{
+  margin-top:60px;
+}
+.container-fluid .row-video {
+display: block;
+
+}
+section.section2-video .container-fluid{
+max-height:600px;
+padding:100px;
+text-align: center;
+}
+.section2-video{
+background-image:linear-gradient(to right,#3e3e3ea8,#3e3e3ea8), url('../img/modal-video.jpg');
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+.h2-video-modal,h2.green_text{
+color:white;
+font-family: 'Baloo' !important;
+}
+.modal-content-video{
+padding-left:0;
+}
+/* END-SECTION2-VIDEO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a.button-row3{
+
+  font-weight: 600;
+  transition: 0.5s;
+}
+a.button-row3:hover{
+  background: #23ff18;
+  color:#111111;
+}
+.pull-right {
+float: right!important;
+}
+.pull-left {
+float: left!important;
+}
+
+
+/* 
+BEGIN-SECTION-3 */
+
+.course_sec {
+margin-top:50px;
+padding: 40px 0 150px;
+/* background: url(https://static1.squarespace.com/static/5750d51…/587c577…/59a8ed1…/1512935204275/10374g-reebok-picture-in-hd.jpg?format=1500w) no-repeat; */
+background-size: cover;
+background-position: center top;
+position: relative;
+
+}
+.course_sec .container {
+position: relative;
+max-width: 100%;
+margin: 0 auto;
+}
+.title-course {
+padding: 30px 0;
+width: 80%;
+margin: auto;
+}
+.course_sec_title h2 {
+font-size: 40px;
+font-weight: 900;
+text-transform: uppercase;
+color: #fff;
+color: #82b53f;
+}
+.course_sec_title p {
+font-size: 25px;
+color: #fff;
+font-weight: 300;
+text-transform: uppercase;
+margin-top: 12px;
+line-height: 30px;
+}
+.course-list {
+width: 80%;
+margin: auto;
+}
+.course_sec_title p{
+color: #111111;
+}
+.item {
+text-align: center;
+}
+.col-md-4 .item:before {
+background-color: #82b53f;
+content: "";
+height: 85px;
+left: 30px;
+position: absolute;
+top: -21px;
+transform: rotate(44deg);
+width: 5px;
+}
+.img_course1 {
+position: relative;
+}
+.img_course1 {
+clip-path: polygon(18.3% 0, 100% 0, 100% 100%, 0 100%, 0 29%);
+}
+.img_course1:before {
+background-color: #82b53f9e;
+content: "";
+display: block;
+height: 100%;
+opacity: 0;
+position: absolute;
+right: 0;
+overflow: hidden;
+width: 100%;
+transition: all ease 0.5s 0s;
+}
+.img_course1:hover::before{
+opacity: 1;
+}
+.img_course1 img {
+width: 100%;
+height: auto;
+}
+a.course_read {
+font-size: 20px;
+text-transform: uppercase;
+font-weight: 600;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 90%;
+opacity: 0;
+text-decoration: none;
+color: white;
+}
+/* END-SECTION-3 */
+
+
+/* BEGIN-SECTION-4  */
+.content-registration {
+width: 100%;
+text-align: CENTER;
+}
+section.section-4 {
+padding: 120px 100px;
+background-image:linear-gradient(to right,#0000008c,#0000008c), url('https://img.wallpaperscraft.com/image/boxer_champion_girl_126417_1920x1080.jpg');
+background-position:bottom;
+background-size: cover;
+background-attachment: fixed;
+}
+.content-registration h2 {
+font-size: 32px;
+letter-spacing: 1px;
+font-weight: 700;
+margin-bottom: 20px;
+text-transform: uppercase;
+color: #fff;
+position: relative;
+z-index: 2;
+font-family: 'Baloo'!important;
+}
+.content-registration form {
+position: relative;
+width: 280px;
+margin: auto;
+}
+.content-registration input {
+width: 280px;
+padding: 10px;
+position: relative;
+z-index: 2;
+color: #aaa;
+font-size: 15px;
+}
+.content-registration button {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+right: 10px;
+background: none;
+border: 0;
+z-index: 2;
+padding: 0;
+}
+.content-registration i {
+font-size: 22px;
+color: #aaa;
+}
+/* END-SECTION4   */
+
+
+
+
+.content-text-boxing div{
+width: 6rem;
+height: 5px;
+background: #23ff18;
+margin: 1.7rem auto;
+
+}
+.content-text-boxing h4{
+font-size: 35px;
+font-family: 'Baloo'!important;
+color:white;
+}

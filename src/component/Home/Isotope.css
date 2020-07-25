@@ -1,0 +1,140 @@
+.form-filter{
+    display: flex;
+    justify-content: center;
+    margin:0 0 20px 0;;
+  }
+  .input-filter{
+    display: none;
+  }
+  .label{
+    background: #23ff18;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+  }
+  .input-filter:checked~label{
+    background: #3e3e3e;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 15px #a8b4fc80;
+    color:White;
+  }
+  .ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  
+  }
+  
+  .li{
+    margin: 10px 10px;
+  } 
+
+
+  .figure-filter{
+    z-index: 1;
+    min-width: 300px;
+    overflow: hidden;
+    margin: 0 5px;
+    animation: show .8s ease;
+  }
+  
+  @keyframes show {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  .img-filter{
+    width: 300px;
+    height: 250px;
+    left: 0;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px #a8b4fc30;
+  }
+  
+
+  
+
+  
+ 
+  figcaption{
+    background: white;
+    border-radius: 0  0 20px 20px;
+    padding: 10px 0 20px 0;
+    transition: .3s;
+  }
+
+  .photo-source{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #969696;
+    margin-bottom: 40px;
+  }
+  .row4 {
+    margin-bottom: 30px;
+  }
+  .title-gymhome {
+    padding: 15px 0;
+    margin-top: 60px;
+  }
+  .ul-content{
+    height:550px;
+    overflow: hidden;
+  }
+  @media(max-width:990px){
+    .ul-content {
+      height: 817px;
+      overflow: hidden;
+  }
+  }
+  @media(max-width:710px){
+    .img-filter {
+      width: 100%;
+      height: 250px;
+    }
+    .ul-content {
+      height: 1679px;
+      overflow: hidden;
+  }
+  }  .input-filter:checked~label{
+    background: #23ff18;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 15px #a8b4fc80;
+    color:White;
+  }
+  ul.ul.ul-menu-isotope li{
+    margin: 5px 10px;
+  }
+  @media(max-width:580px){
+    .title-gym.wow.bounceInDown h3 {
+      font-size: 35px;
+  }
+  .container.container--isope {
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+label.label {
+  padding: 5px 5px;
+  font-size: 12px;
+}
+ul.ul.ul-menu-isotope li {
+  margin: 2px 2px;
+}
+.figure-filter {
+  max-width: 90%;
+  margin: auto;
+}
+.img-filter {
+  width: 100%;
+  height: 250px;
+}
+  }

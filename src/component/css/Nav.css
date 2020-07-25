@@ -1,0 +1,257 @@
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 100vh;
+    justify-content: space-around;
+    position:absolute;
+    right:0;
+    top:0;
+    background: #0f1014;
+    transform: translateX(0);
+    z-index: 502;
+    transition: 0.7s;
+  }
+  img.icon-cart{
+    width:40px;
+  }
+  .nav-middle ul{
+    display: block;
+    height: initial;
+    list-style-type: none;
+    text-align: center;
+  }
+  .nav-middle ul li{
+    line-height: 60px;
+    padding: 0 20px;
+  }
+  .nav-middle ul li a, .nav-right ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .nav-middle ul, .nav-right ul{
+    display: block;
+    height: initial;
+    text-align: center;
+    list-style-type: none;
+  }
+  .nav-middle ul li, .nav-right ul li {
+    line-height: 60px;
+  }
+  button.btn.btn-primary{
+    background: none;
+    border:none;
+  }
+  .logo {
+    margin: 10px 46px;
+    text-align: center;
+  }
+  .logo span {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .logo-gym {
+    width: 100px;
+    color: white;
+  }
+  .logo-home {
+    color: #82b53f;
+    text-align: center;
+  }
+  .fa-times {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 25px;
+    color: white;
+    z-index: 502;
+    cursor: pointer;
+  }
+  
+  h3 span{
+    font-family: 'Baloo'!important;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 0;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    z-index: 501;
+    opacity: 0;
+    transition: .5s;
+    overflow: hidden;
+  
+  }
+  .overlay.menu-open {
+    width: 100%;
+    opacity: 1;
+  }
+  .menu-open-opacity{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    z-index: 501;
+    opacity: 1;
+    transition: .5s;
+  }
+  .active-menu{
+    transform: translateX(100%);
+    transition: .5s;
+  }
+  .over-nav{
+    transform: translateX(0);
+  }
+  button.btn.btn-primary {
+    color: white;
+  }
+  i.fas.fa-search {
+    color: #fff;
+  }
+  a.logo.logo1 {
+    color: white;
+  }
+  .container-fliud {
+  
+    overflow: hidden;
+  }
+  article.product {
+    width: 100%;
+  }
+  @media(max-width:960px){
+    .container-fluid-carousel .row {
+      width: 90%;
+      margin: auto;
+  }
+  .row.mt3{
+    width: 96%;
+      margin: auto;
+  }
+  }
+  .product-info {
+    background: #3e3e3e5e;
+  }
+  .price-top{
+    background: #23ff18;
+  }
+  .div-title {
+  
+    margin-top: 20px;
+  }
+  .featured-products {
+      padding: 1rem 0;
+  }
+  .auto-container.text-center {
+    font-size: 16px;
+    padding:0;
+    margin:0;
+  }
+  .auto-container {
+    text-align: center;
+    color:#111111;
+   font-family: 'Baloo'!important;
+  }
+  .btn-primary{
+    background: #23ff18;
+    border: 3px solid #23ff18;
+  }
+  .banner-product div {
+    width: 6rem;
+    height: 5px;
+    background: #23ff18;
+    margin: 1.7rem auto;
+  }
+  .title-product{
+    font-size:35px;
+    font-family: 'Baloo'!important;
+  }
+  a.btn-primary.product-link {
+    font-size: 13px;
+  }
+  .product-info {
+    background: #efefef;
+  }
+  @media(max-width:1100px){
+    .content-title.content-title2::before {
+        border-radius: .5rem;
+        content: '';
+        position: absolute;
+        top: -.5rem;
+        bottom: -.5rem;
+        left: 3.5rem;
+        right: 3.5rem;
+        border: .25rem solid rgba(255,255,255,.85);
+    }
+    .content-title2 {
+        padding: 3rem 8rem;
+        margin: .5rem;
+        background-color: white;
+        width: 88%;
+    }
+  }
+  .row.row3.row3-product{
+        margin-right: 0;
+        margin-left: 0;
+  } 
+  @media(max-width: 1600px) and (min-width:1300px){
+    .sec.sec1.wow.slideInLeft{
+      padding-right:50px;
+    }
+    .sec.sec2.wow.slideInRight{
+      padding-left:50px;
+    }
+    .sec.sec1.wow.slideInLeft .content{
+      padding-left:20px;
+    }
+    .sec.sec2.wow.slideInRight .content{
+      padding-left:20px;
+    }
+  }
+  a.btn-primary.wow.bounceInLeft{
+    background: #23ff18;
+    padding:10px 25px;
+    border:3px solid #23ff18;
+  
+  }
+  a.btn-primary.wow.bounceInLeft:hover{
+    background: unset;
+    color:White;
+  }
+  .out-trainer-info h3 a{
+    font-size:30px;
+  }
+  .col-sm-4s:before {
+    content: '';
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    top: -30px;
+    left: -30px;
+    background: #23ff18;
+    z-index: 1;
+  }
+
+  .footer-widget.quick-links.col-md-2.col-sm-6.col-xs-12:before{
+    content: '';
+      position: relative;
+      opacity: 0;
+  }
+  .widget-link ul li a:hover{
+    color: #23ff18;
+  }
+  .card.wow.bounceInUp:after{
+    background-color: #82b53f;
+      content: "";
+      position: relative;
+      opacity: 0;
+  }
+  header{
+      position: relative;
+  
+  }
+  button.btn.btn-primary.btn-primary-login {
+    background: unset;
+}

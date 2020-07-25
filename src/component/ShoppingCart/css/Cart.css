@@ -1,0 +1,145 @@
+section .cart{
+    position: relative;
+    border: 1px solid #ccc;
+}
+.amount span{
+    color: #23ff18;
+    padding: 0 20px;
+}
+.amount .count{
+    width: 40px;
+    height: 30px;
+    border: 1px solid #555;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+.delete{
+    position: absolute;
+    top:0;
+    right: 5px;
+    color: #23ff18;
+    cursor: pointer;
+    font-weight: 900;
+}
+.total{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total a{
+    text-decoration: none;
+    background: #333;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+}
+.total h3{
+    margin-right: 50px;
+    color: #23ff18;
+}
+.details.cart {
+    position: relative;
+    
+}
+.details.cart {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ccc;
+    margin-top:30px ;
+}
+.banner-cart{
+    height:20vh;
+}
+.banner-productss.banner-cart {
+    min-height: 14vh;
+    background: #3e3e3e;
+}
+.banner-cart {
+    height: 10vh;
+}
+@media(max-width:800px){
+    .banner-productss.banner-cart {
+        min-height: 8vh;
+        background: #3e3e3e;
+    }
+}
+.total{
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+}
+.name-cart{
+    font-family: 'Baloo';
+    padding-left:20px;
+    margin-bottom: 0;
+}
+.box .row span,.amount span {
+    color: #1cb514;
+    font-weight: 600;
+}
+.amount .count {
+    background: #3e3e3e;
+    color:#fff;
+}
+.total h3{
+    font-weight: 600; 
+}
+.delete{
+    color: #3e3e3ec2;;
+}
+a.name-cart-1{
+    opacity: 1;
+    display: block;
+    color:#111111;
+    font-family: 'Baloo';
+    font-size:18px;
+    margin:10px ;
+}
+.content-cart-card p {
+    margin:10px;
+    font-size:16px;
+    color: #1cb514;
+    font-weight: 600;
+}
+.content-cart-card button{
+    border: none;
+    outline: none;
+    background: #333;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 15px 0;
+}
+.img-container{
+    border: 1px solid #eee;
+    overflow: hidden;
+    padding: 6px;
+    box-shadow: 2px 8px 20px #ddd;
+    margin: 6px;
+    transition: .5s linear;
+    cursor: pointer;
+}
+.img-container:hover{
+    box-shadow: unset ;
+}
+.img-container:hover .content-cart-card button{
+border: 3px solid black;
+background: unset;
+color: black;
+font-weight: 600;
+}
+.content-cart-card button{
+    position: relative;
+}
+.content-cart-card button:hover{
+ background: black;
+}
+

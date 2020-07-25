@@ -1,0 +1,380 @@
+.banner-roomGym{
+    background: linear-gradient(to right, #0000008f,#0000008f) ,url(../img/tool_banner.png) center/cover no-repeat;
+    min-height: 50vh;
+}
+.section-room-1{
+    width:100%;
+    height:auto;
+    background-image: url(../img/phongtap_bg1.png) !important;
+    background-position: 0 0 !important;
+    background-repeat: no-repeat !important;
+}
+.content-room{
+    height:100%;
+    width:70%;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+   
+}
+.content-room-1{
+    flex: 49.99%;
+}
+.content-room-2{
+    flex: 49.9%;
+}
+.content-room-p1-h2{
+    font-size:40px;
+    font-family: 'Baloo'!important;
+    color: #111111;
+    margin-bottom: 50px;
+
+}
+.content-room-p1 p{
+    text-align: justify;
+    font-size: 16px;
+    color: #565656;
+    line-height: 33px;
+    padding: 0;
+    margin: 0 0 1.3em;
+}
+.content-room-2{
+    display:flex;
+  flex-direction: column;
+}
+.content-room-21{
+    height: 35%;
+    
+}
+.content-room-21{
+display:grid;
+grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-column-gap: 30px;
+}
+.content-room-22{
+    height:64.9999%;
+    background-image: url('https://swequity.vn/wp-content/uploads/2018/03/phongtap_img2.png');
+    margin-top:40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.content-room-21-01{
+
+    background-image: url('https://swequity.vn/wp-content/uploads/2018/03/phongtap_img3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.content-room-21-02{
+
+    background-image: url('https://swequity.vn/wp-content/uploads/2018/03/phongtap_img4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content-room-p1{
+    padding-right: 30px;
+}
+.content-room {
+    margin-top: 150px;
+}
+.body-room{
+    width:100%;
+    height:auto;
+    background: #f6f6f6;
+}
+h2.content-room-p1-h2{
+    position: relative;
+}
+h2.content-room-p1-h2:before{
+    content:'';
+    position: absolute;
+    bottom: -7px;
+    height:5px;
+    width:50%;
+    background: #23ff18;
+}
+.section-room-2{
+    width:100%;
+    background: linear-gradient(to right ,#3e3e3ef2,#3e3e3ee0), url(/static/media/bg-2.62cd3a23.jpg);
+    background-position: center;
+    
+}
+.content-sec2-room{
+    padding: 120px 0;
+}
+.sec-2-p p{
+    font-size:45px;
+    font-family: 'Baloo'!important;
+    text-transform: uppercase;
+    color:#fff;
+}
+.content-sec2-room {
+    text-align: CENTER;
+}
+/* SECTION333333333333333333333333333333333333 */
+
+.section-room-3{
+    background-image: url(../img/phongtap_bg2.jpg);
+    height:100%;
+}
+.content-title-room{
+    text-align: center;
+    padding: 60px 100px;
+}
+.content-title-room h3{
+font-size:35px;
+font-family: 'Baloo';
+}
+.content-title-room p{
+    width:50%;
+    margin:auto;
+    margin-top:20px;
+    font-size:18px;
+    color:#111111cc;
+    text-align: center;
+}
+.content-title-room h3{
+    position: relative;
+}
+.content-title-room h3:before{
+    content:'';
+    position: absolute;
+    bottom: -20px;
+    height:5px;
+    width:10%;
+    background: #fff;
+    margin-left:80px;
+}
+.content-title-room2 h3:before{
+    content:'';
+    position: absolute;
+    bottom: -20px;
+    height:5px;
+    width:10%;
+    background: #23ff18;
+    margin-left:80px; 
+}
+.image-room-section3{
+    width:75%;
+    margin-top:50px;
+    margin:auto;
+    background: url(../img/image-sec3.jpg);
+    height:780px;
+    background-position: center;
+    background-size: cover;
+}
+.section-room-4{
+    width:100%;
+    height:auto;
+    background: linear-gradient(90deg, #f6f6f6 33%, #23ff18 50%);
+}
+.image-background-sec-4{
+    width:75%;
+    margin:auto;
+}
+.image-background-sec-4 img{
+    width:100%;
+    padding-bottom: 150px;
+}
+.image-room-section3 img{
+    width:100%;
+}
+.content-title-room2{
+    margin-top:50px;
+}
+.section5-room{
+    width:100%;
+    height:auto;
+  
+  
+}
+.section5-room{
+    width:100%;
+    height:auto;
+    background: linear-gradient(267deg, #f6f6f6 33%, #23ff18 50%);
+}
+.content-title-room01{
+    padding-top:70px;
+}
+.content-room-22{
+    margin:60px 0;
+}
+.content-room-2 {
+    margin: 0 30px;
+}
+.image-room-section3{
+    height:auto;
+}
+@media(min-width:1800px){
+    a.logo.logo1,a.logo.logo1 span{
+        font-size:40px;
+    }
+    span.logo-gym,span.logo-home{
+        font-size:35px;
+    }
+    nav{
+        width:30rem;
+    }
+    .nav-middle ul li a{
+        font-size:20px;
+    }
+    button.btn.btn-primary.btn-primary-login{
+        font-size:20px;
+    }
+    .slider-text p{
+        max-width: 700px;
+        font-size:16px;
+    }
+    .section-room-3{
+        background-repeat: no-repeat;
+    }
+    .content-room{
+        width:80%;
+    }
+    
+}
+@media(max-width:1600px){
+    .content-room{
+        width:80%;
+    }
+}
+@media(max-width:1500px){
+    .content-room{
+        width:85%;
+    }
+    .content-room-p1 p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .content-title-room p {
+        width: 85%;
+        font-size:16px;
+    }
+}
+@media(max-width:1100px){
+    .content-room{
+        flex-direction: column;
+    }
+    .content-room-1{
+        flex:100%;
+    }
+    .content-room {
+        margin-top: 80px;
+    }
+    .content-room-2{
+        flex:100%;
+        display:none;
+    }
+}
+@media(max-width:700px){
+    .content-title-room {
+        text-align: center;
+        padding: 60px 35px;
+    }
+    .content-title-room p {
+        width: 95%;
+        font-size:14px;
+        text-align: justify;
+    }
+    .content-sec3-room {
+        padding-bottom: 80px;
+    }
+    header {
+        padding: 7px 25px;
+    }
+    .content-room-p1 {
+        padding-right: 0px;
+    }
+    .content-room {
+        width: 90%;
+    }
+}
+.slider-text{
+    top:60%;
+}
+h4.title-yoga{
+    font-size:30px;
+}
+.content-text-boxing div {
+    width: 6rem;
+    height: 5px;
+    background: #23ff18;
+    margin: 1rem auto;
+}
+.logo-width-min{
+    margin-top: 70px;
+}
+.col .content a{
+   
+    transition: .5s ease;
+}
+.col .content a:hover{
+    background: #3e3e3e;
+    color:#fff;
+}
+.col-sm-4 img{
+    position: relative;
+    z-index: 2;
+}
+.col-sm-4s:before{
+    content:'';
+    position: absolute;
+    width:95%;
+    height:100%;
+    top:-30px;
+    left:-30px;
+    background: #23ff18;
+    z-index: 1;
+}
+.row3-product {
+    /* background: #3e3e3e; */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(90deg, #3e3e3e 35%, #23ff18 73%);
+}
+@media (max-width: 1000px){
+    .col-sm-4.col-sm-4s{
+        flex: 0 0 100%;
+        max-width: 80%;
+        margin: auto;
+    }
+    .col-sm-4.col-sm-4s img{
+        width:100%;
+    }
+    .col-sm-8.mt10{
+        flex: 0 0 100%;
+        max-width: 100%; 
+        margin: auto;
+        margin-top:50px;
+        padding : 0 30px;
+    }
+    .col-md-3.col-sm-6.col-xs-12{
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:600px){
+    .content-title h3 {
+        font-size: 25px;
+    }
+    .content-title2 {
+        padding: 4rem 1rem;
+    }
+    .content-title.content-title2 p {
+        font-size: 14px;
+    }
+}
+@media(min-width:1800px){
+    .banner-product {
+        padding: 15rem 3rem;
+    }
+    .content-title2 {
+        padding: 9rem 5rem;
+    }
+    .content-title.content-title2 p {
+        font-size: 18px;
+    }
+}

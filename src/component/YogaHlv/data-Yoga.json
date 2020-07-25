@@ -1,0 +1,79 @@
+[
+    {
+        "id":1,
+        "name":"Rose Nguyen",
+        "p":"3 chứng chỉ Huấn luyện viên thể hình quốc tế Lesmill, Kettle Bell, Master Technology. 20 năm huấn luyện, biểu diễn, thi đấu thể thao quốc tế",
+        "contentp":"Bạn mơ ước, bạn lên kế hoạch, bạn đạt được. Giá như cuộc đời chỉ đơn giản như vậy. Sẽ có những trở ngại, sẽ có những người hoài nghi, sẽ có những sai lầm. Nhưng với sự nỗ lực, với niềm tin vào bản thân và vào cả những người xung quanh, thành công là không có giới hạn.Tôi tập luyện, rồi tôi về nhà. Và khi về nhà, tôi lại nghĩ về việc tập luyện. Đó là 1 ngày của tôi và bí quyết thành công của tôi.Tôi tập luyện, rồi tôi về nhà. Và khi về nhà, tôi lại nghĩ về việc tập luyện. Đó là 1 ngày của tôi và bí quyết thành công của tôi",
+        "information": "3 chứng chỉ Huấn luyện viên thể hình quốc tế Lesmill, Kettle Bell, Master Technology. 20 năm huấn luyện, biểu diễn, thi đấu thể thao quốc tế",
+        "image":"https://thuocdantoc.vn/wp-content/uploads/2019/06/chua-benh-tri-bang-cach-tap-yoga.jpg",
+        "price": 350,
+        "image1":"https://www.patsgym.com/img/getcut_ba1.jpg",
+        "image2":"https://www.patsgym.com/img/getcut_ba2.jpg",
+        "image3":"https://external-preview.redd.it/WzVTCSCj-plCuyOD6ClU6EulBRzS0Aa_ctVxyDgcNG0.jpg?auto=webp&s=c1b82319106a1aff61aae6271dcac99ad7bc8ac7"
+
+
+    },
+    {
+        "id":2,
+        "name":"Thái Hà",
+        "p":"Chứng chỉ Thể Thao NASM Hoa Kỳ.Hơn 8 năm kinh nghiệm thay đổi thể hình, từng trực tiếp huấn luyện cho nhiều ngôi sao.",
+        "contentp":"Bạn mơ ước, bạn lên kế hoạch, bạn đạt được. Giá như cuộc đời chỉ đơn giản như vậy. Sẽ có những trở ngại, sẽ có những người hoài nghi, sẽ có những sai lầm. Nhưng với sự nỗ lực, với niềm tin vào bản thân và vào cả những người xung quanh, thành công là không có giới hạn.Tôi tập luyện, rồi tôi về nhà. Và khi về nhà, tôi lại nghĩ về việc tập luyện. Đó là 1 ngày của tôi và bí quyết thành công của tôi.Tôi tập luyện, rồi tôi về nhà. Và khi về nhà, tôi lại nghĩ về việc tập luyện. Đó là 1 ngày của tôi và bí quyết thành công của tôi",
+        "image":"https://fitnyum.com/images/2019/03/01/Fit_Blog-7_00-Thumbnail.jpg",
+        "price": 300,
+        "image1":"https://i.ytimg.com/vi/okM3OYaBQGg/sddefault.jpg#404_is_fine",
+        "image2":"https://superheroeshideaway.com/wp-content/uploads/2018/02/SuperFB2.jpg",
+        "image3":"https://img.buzzfeed.com/video-api-prod/assets/a1c9d99b578f4ae59de2bd230faa117f/a.jpg"
+
+
+    },
+    {
+        "id":3,
+        "name":"Bảo Trâm",
+        "price": 200,
+        "p":"Kinh nghiệm 7 năm, huấn luyện chuyên nghiệp các phương pháp giảm cân. Giải nhất cuộc thi Thay Đổi Hình Thể năm 2009, 2012.",
+        "contentp":"Bạn mơ ước, bạn lên kế hoạch, bạn đạt được. Giá như cuộc đời chỉ đơn giản như vậy. Sẽ có những trở ngại, sẽ có những người hoài nghi, sẽ có những sai lầm. Nhưng với sự nỗ lực, với niềm tin vào bản thân và vào cả những người xung quanh, thành công là không có giới hạn.Tôi tập luyện, rồi tôi về nhà. Và khi về nhà, tôi lại nghĩ về việc tập luyện. Đó là 1 ngày của tôi và bí quyết thành công của tôi.Tôi tập luyện, rồi tôi về nhà. Và khi về nhà, tôi lại nghĩ về việc tập luyện. Đó là 1 ngày của tôi và bí quyết thành công của tôi",
+        "image":"https://i.a4vn.com/2018/9/16/ho-ngoc-ha-suyt-chet-khi-ngam-minh-trong-bon-khi-lanh-170-do-41e960.jpeg",
+        "image1":"https://lh3.googleusercontent.com/proxy/fIWWwhFMXWSYV19jRs2Uahg0Vb62N1ct2u0xKfUQsdBdwmJbHuemuH8if3VNGyc46AANYGMlx8k3IP65IMlHB7JxiGMinXxH2MxWeTd5ximBkujP",
+        "image2":"https://i.ytimg.com/vi/7W_eg3M_Ekk/maxresdefault.jpg",
+        "image3":"https://i.dailymail.co.uk/i/pix/scaled/2015/04/28/20/281D6B2100000578-0-image-a-26_1430248984016.jpg"
+
+
+    },
+    {
+        "id":4,
+        "name":"ISIDI",
+        "price": 250,
+        "p":"25 năm huấn luyện thể thao tại Hoa Kỳ, Đức, Hồng Kông, Malaysia, Singapore, và hiện nay là Việt Nam tại California Fitness & Yoga Centers.",
+        "contentp":"Bạn mơ ước, bạn lên kế hoạch, bạn đạt được. Giá như cuộc đời chỉ đơn giản như vậy. Sẽ có những trở ngại, sẽ có những người hoài nghi, sẽ có những sai lầm. Nhưng với sự nỗ lực, với niềm tin vào bản thân và vào cả những người xung quanh, thành công là không có giới hạn.Tôi tập luyện, rồi tôi về nhà. Và khi về nhà, tôi lại nghĩ về việc tập luyện. Đó là 1 ngày của tôi và bí quyết thành công của tôi.Tôi tập luyện, rồi tôi về nhà. Và khi về nhà, tôi lại nghĩ về việc tập luyện. Đó là 1 ngày của tôi và bí quyết thành công của tôi",
+        "image":"https://www.cfyc.com.vn/images_server/themes/celebration/img/home/yoga-giam-can.jpg?v=0.2",
+        "image1":"https://images-cdn.9gag.com/images/thumbnail-facebook/42772132_1523972376.1443_EtEMyJ_n.jpg",
+        "image2":"https://s1.dmcdn.net/v/7BZ2A1JeOcvuK6jU6/x1080",
+        "image3":"https://static.boredpanda.com/blog/wp-content/uploads/2017/05/591c679228648__700-png.jpg "
+
+
+    },
+    {
+        "id":5,
+        "name":"Minh Hồng",
+        "price": 400,
+        "p":"Chứng nhận từ Học Viện Y Học Thể Thao Quốc Gia (NASM) Hoa Kỳ,và hiện nay là Việt Nam tại GymHome Center",
+        "contentp":"Bạn mơ ước, bạn lên kế hoạch, bạn đạt được. Giá như cuộc đời chỉ đơn giản như vậy. Sẽ có những trở ngại, sẽ có những người hoài nghi, sẽ có những sai lầm. Nhưng với sự nỗ lực, với niềm tin vào bản thân và vào cả những người xung quanh, thành công là không có giới hạn.Tôi tập luyện, rồi tôi về nhà. Và khi về nhà, tôi lại nghĩ về việc tập luyện. Đó là 1 ngày của tôi và bí quyết thành công của tôi.Tôi tập luyện, rồi tôi về nhà. Và khi về nhà, tôi lại nghĩ về việc tập luyện. Đó là 1 ngày của tôi và bí quyết thành công của tôi",
+        "image":"https://html.rovadex.com/html-fitmax/assets/img/single-5.jpg",
+        "image1":"https://images.contentstack.io/v3/assets/blt45c082eaf9747747/blt0c5f7de9523a7498/5de0bb008b4ae0646c6a10cb/975x650_Craig.jpg?format=pjpg&auto=webp&fit=crop&quality=76&width=1232&height=496",
+        "image2":"https://i.redd.it/2oz4cqmx6rkx.jpg",
+        "image3":"https://thethaokhoinguyen.com/wp-content/uploads/2017/06/tai-sao-nen-tap-gym-1.jpg"
+
+
+    },
+    {
+        "id":6,
+        "name":"Thùy Dung",
+        "price": 400,
+        "p":"Kinh nghiệm 7 năm, huấn luyện chuyên nghiệp các phương pháp giảm cân. Giải nhất cuộc thi Thay Đổi Hình Thể năm 2009, 2012.",
+        "contentp":"Bạn mơ ước, bạn lên kế hoạch, bạn đạt được. Giá như cuộc đời chỉ đơn giản như vậy. Sẽ có những trở ngại, sẽ có những người hoài nghi, sẽ có những sai lầm. Nhưng với sự nỗ lực, với niềm tin vào bản thân và vào cả những người xung quanh, thành công là không có giới hạn.Tôi tập luyện, rồi tôi về nhà. Và khi về nhà, tôi lại nghĩ về việc tập luyện. Đó là 1 ngày của tôi và bí quyết thành công của tôi.Tôi tập luyện, rồi tôi về nhà. Và khi về nhà, tôi lại nghĩ về việc tập luyện. Đó là 1 ngày của tôi và bí quyết thành công của tôi",
+        "image":"https://html.rovadex.com/html-fitmax/assets/img/single-1.jpg",
+        "image1":"https://i.dailymail.co.uk/i/pix/2013/12/03/article-2517375-19CDDF8700000578-159_634x401.jpg",
+        "image2":"https://womensleggingsandtights.com/wp-content/uploads/2019/09/1567907221_maxresdefault.jpg",
+        "image3":"https://thethaokhoinguyen.com/wp-content/uploads/2017/06/tai-sao-nen-tap-gym-1.jpg"
+    }
+]

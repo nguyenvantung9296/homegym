@@ -1,0 +1,588 @@
+.banner-Yoga{
+    position: relative;
+    background: linear-gradient(to right, #0000008f,#0000008f) ,url(../img/3-1.jpg) center/cover no-repeat;
+    min-height: 65vh;
+}
+.btn-primary{
+    background: #23ff18;
+    padding:12px 28px;
+    border: 3px solid #23ff18;
+
+}
+.btn-primary:hover{
+    background:unset;
+    color:white;
+}
+h4.title-yoga {
+    font-size: 40px;
+    font-family: 'Baloo'!important;
+    color: white;
+    width: 40%;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+
+
+/* sec1 */
+.img-icon img {
+    display: block;
+    width: 100%;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+  }
+  .container-sec1{
+    max-width:1350px;
+  }
+  .item{
+    text-align: center;
+    /* -webkit-box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.07); */
+  }
+  .img-icon {
+    display: flex;
+    justify-content: CENTER;
+    align-items: center;
+    padding:10px;
+  }
+
+  h5.card-title{
+    font-family: "Baloo" !important;
+    font-weight: 600;
+    color:#111111;
+  }
+  .owl-nav,.owl-dots{
+    display:none;
+  }
+  h2.title{
+    padding: 25px;
+    color:#111111;
+    font-size:25px;
+    font-family: "Baloo" !important;
+  }
+  .card{
+    padding:15px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .card:after{
+    content:'';
+    position: absolute;
+    border: 8px solid #23ff18;
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      top: -50px;
+      left: -43px;
+      transition: .4s ease-in-out;
+  
+  }
+  .card-yoga::before{
+    background-color: #82b53f;
+    content: "";
+    height: 0px;
+    left: 0px;
+    position: absolute;
+  }
+  .card-yoga{
+      background: #efefef;
+      border: 1px solid rgba(0,0,0,.125);
+  }
+  .card-text:last-child{
+    text-align: justify;
+    font-size:16px;
+    line-height: 2;
+  }
+  
+  h5.card-title{
+    text-align: justify;
+    font-size:17px;
+    margin-bottom:20px;
+    width:60%;
+  }
+  .item{
+    transition: .4s ease-in-out;
+    cursor: pointer;
+  }
+  .item:hover{
+    transform: translateY(-14px);
+  }
+  
+  .card:hover::after{
+    width: 80px;
+    height: 80px;
+  }
+  i.fas.fa-arrow-right{
+    display:block;
+    color:#111111;
+    text-align: left;
+    transition: .4s ease-in-out;
+    margin-top: 10px;
+  }
+  .card:hover i.fas.fa-arrow-right{
+    color:#23ff18;
+  }
+  .slider-text {
+    width: 100%;
+    top: 55%;
+}
+h4.title-yoga {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+  /*sec1 */
+
+
+  .yoga-home{
+    padding: 150px 0;
+    background: linear-gradient(90deg, #fff 33%, #23ff18 50%);
+  }
+  .content-container {
+    position: relative;
+    margin: auto;
+    max-width: 1056px;
+}
+.yoga-home-container {
+    display: flex;
+    flex-direction: row;
+}
+.sec1-yoga{
+    display: flex;
+    align-items: center;
+    flex-basis: 49.99%;
+}
+.img-sec1-yoga{
+    
+    background-image: url('https://d28z2mkpklymta.cloudfront.net/8.0.9/img/above-login/home/header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+.sec2-yoga{
+    display: flex;
+    align-items: center;
+    flex-basis: 49.99%;
+}
+.content-sec2-yoga{
+    padding-left: 48px;
+    padding-right: 20px;
+    color: #fff !important;
+}
+.title-sec2-yoga{
+    max-width: 400px;
+    font-family: 'Baloo';
+}
+@media (min-width: 544px){
+    .title-sec2-yoga {
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.75px;
+    }
+}
+.p-content-sec2{
+    margin-bottom: 48px;
+    font-size: 20px;
+    line-height: 32px;
+    color:#ffffffe3;
+}
+.button-sec2-yoga{
+    padding-left: 44px;
+    padding-right: 44px;
+    border-color: #1e1e28;
+    background-color: #1e1e28;
+    color: #fff !important;
+}
+@media(max-width:768px){
+  .yoga-home-container{
+    flex-direction: column;
+  }
+  .sec1-yoga{
+    flex-basis: 100%;
+  }
+  .sec2-yoga{
+    flex-basis: 100%;
+  }
+  .yoga-home{
+    background: #23ff18;
+    margin-top: 48px;
+    padding: 0 0 48px 0;
+    transition: .5s ease-in-out;
+  }
+}
+a.btn.button-sec2-yoga{
+  margin-top:30px;
+}
+.sec1-yoga:hover .yoga-home{
+  background: #23ff18;
+}
+
+
+
+
+/* SECTION 3 */
+.father-section-3{
+  background-image: linear-gradient(to right, #23ff18 50%, transparent 50%);
+  position: relative;
+  margin-top:30px;
+}
+.father-section-3:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-image:url(../img/image-yoga2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+h2.f-header-h2{
+  font-size:45px;
+color:#fff;
+}
+.content-section-3-yoga p {
+  color: #ffffffe3;
+  font-size: 19px;
+    line-height: 32px;
+    margin-top: 20px;
+}
+@media (min-width: 769px){
+  .father-section-3{
+    min-height: 556px;
+  } 
+}
+.section-3-yoga{
+  width: 100%;
+  padding: 64px 24px 0 0;
+  position: relative;
+    margin: auto;
+    max-width: 1187px;
+}
+.content-section-3-yoga{
+  max-width: 415px;
+    width: 47%;
+    position: relative;
+    padding-bottom: 142px;
+    color:#111111;
+}
+.f-header-h2{
+font-family: 'Baloo';
+letter-spacing: -0.5px;
+}
+@media (min-width: 769px){
+  .f-header-h2{
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+@media(max-width:768px){
+  .father-section-3:before{
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    height:70vh;
+  
+  }
+  .content-section-3-yoga {
+    width: 95%;
+    color: #111111;
+    margin: auto;
+    margin-top: 70vh;
+    max-width: 95%;
+   
+}
+.title-sec2-yoga{
+  font-size: 34px;
+}
+.title-sec2-yoga {
+
+  font-family: 'Baloo';
+  margin-top:20px;
+}
+.p-content-sec2{
+  max-width: 100%;
+  font-size:15px;
+
+}
+a.btn.button-sec2-yoga{
+  margin-left:30px;
+}
+.father-section-3{
+  background: unset;
+}
+h2.f-header-h2{
+  color :#111111;
+}
+.content-section-3-yoga p{
+  color: #111111;
+}
+}
+
+/* SECTION-4 */
+.father-section-4{
+    background-image: linear-gradient(to right, transparent 50% ,#23ff18 50%);
+    position: relative;
+}
+.father-section-4:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  background-image:url(../img/image-yoga.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+@media (min-width: 769px){
+  .father-section-4{
+    min-height: 556px;
+  } 
+}
+.content-section-4-yoga {
+  max-width: 615px;
+  width: 47%;
+  position: relative;
+  padding-bottom: 142px;
+  color: #111111;
+  float: right;
+
+}
+h2.f-header-h4{
+  font-size:45px;
+color:#fff;
+font-family: 'Baloo';
+}
+.content-section-4-yoga p {
+  color: #ffffffe3;
+  font-size: 19px;
+    line-height: 32px;
+    margin-top: 20px;
+}
+@media(min-width:1000px){
+  .content-section-4-yoga{
+    padding-right: 100px;
+    margin-top:50px;
+  }
+
+}
+.img-col-yoga{
+  height:300px;
+}
+.gym-home.gym-home2.gym-home2-yoga{
+  margin-top:50px;
+}
+.map_box{
+  margin-top:40px;
+}
+@media(max-width:768px){
+  .father-section-4:before{
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    height: 70vh;
+}
+.content-section-4-yoga {
+  width: 95%;
+  color: #111111;
+  margin: auto;
+  margin-top: 70vh;
+  max-width: 95%;
+}
+h2.f-header-h4{
+  color: #111111;
+  margin-top:80px;
+}
+.content-section-4-yoga p{
+  color: #111111;
+}
+a.btn.button-sec2-yoga {
+  margin-left: 2px;
+}
+.content-section-3-yoga{
+  padding-bottom: 80px;
+}
+.content-section-4-yoga{
+  padding-bottom: 100px;
+}
+h4.title-yoga {
+  font-size: 30px;
+  width: 50%;
+}
+.blog-sec1{
+  width:96%;
+}
+.item.wow.bounceInUp{
+  margin-bottom: 10px;
+}
+  }
+@media(max-width:550px) and (min-width:451px){
+  .col-md-3.col-sm-6.col-xs-12{
+    flex: 0 0 100%;
+    max-width: 80%;
+    margin: auto;
+}
+}
+@media(max-width:450px){
+  .col-md-3.col-sm-6.col-xs-12{
+    flex: 0 0 100%;
+    max-width: 95%;
+    margin: auto;
+}
+}
+.button-sec2-yoga2{
+  background-color:unset;
+}
+a.wow.slideInLeft.button-yogo-add{
+  padding-left: 44px;
+    padding-right: 44px;
+    border-color: #1e1e28;
+    background-color: #1e1e28;
+    color: #fff !important;
+    padding: 0.675rem 3rem;
+}
+.modal-dialog {
+  max-width: 900px;
+}
+.modal-content.modal-content-1.modal-yogo-1{
+  background-image: url(../img/yogo-login.png);
+  background-size: cover;
+  background-position: bottom;
+}
+i.fa.fa-phone, i.fa.fa-envelope, i.fa.fa-map-marker{
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 10px;
+}
+i.fas.fa-user{
+  margin-right: 15px;
+}
+.modal-yogo-1{
+  max-width: 1000px;
+}
+@media(max-width:999px){
+  .modal-dialog.modal-yogo-1 {
+    width: 98%;
+    margin: auto;
+}
+  .modal-yogo-1{
+   max-width:100%;
+  }
+  .modal-content.modal-content-1.modal-yogo-1{
+    padding-left: 300px;
+  }
+}
+@media(max-width:767px){
+  .modal-content.modal-content-1.modal-yogo-1 {
+    padding-left: 10px;
+}
+.modal-dialog.modal-yogo-1 {
+  margin-top: 100px;
+}
+.modal-content.modal-content-1.modal-yogo-1 {
+  background-image:linear-gradient(to right ,#ffffff8a,#fff), url(/static/media/yogo-login.499618fb.png);
+  background-size: cover;
+  background-position: left;
+}
+}
+h5#exampleModalLabel{
+  font-family: 'Baloo';
+}
+.sec1-yoga img{
+  height:500px;
+  width:500px;
+  object-fit: cover;
+}
+.button-click a{
+  font-size:14px;
+  text-transform: unset;
+  padding: 10px 30px;
+  background: #3e3e3e;
+}
+
+.Click-Yoga{
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding:10px 25px;
+  border: none;
+  background: #23ff18;
+  transition: .5s ease-in;
+
+
+}
+.col-md-2.col-sm-6.col-xs-12.wow.bounceInUp:hover .Click-Yoga{
+  z-index:1000;
+}
+.title-sec2-yoga{
+  margin-bottom: 0;
+}
+.hlv-cn{
+  color:#111111;
+  font-family: 'Baloo';
+  margin-bottom: 30px;
+}
+.yoga-page {
+  padding: 50px 0;
+  background: linear-gradient(90deg, #3e3e3e 46%, #23ff18 51%);
+  width:90%;
+  margin:auto;
+  margin-top:40px;
+  margin-bottom: 60px;
+}
+.img-col.img-col-Click.img-col-Click-Yoga {
+  height: 300px;
+}
+.container.container-sec1 {
+    padding: 50px 0;
+}
+.container.container-sec1{
+    padding-bottom: 20px;
+}
+@media(max-width:1000px){
+  .yoga-home-container {
+    display: flex;
+    flex-direction: column;
+}
+.sec1-yoga {
+
+  flex-basis: 100%;
+  justify-content: center;
+}
+.sec2-yoga {
+
+  flex-basis: 100%;
+}
+section.yoga-home.yoga-page{
+  background: linear-gradient(90deg, #fff 33%, #23ff18 50%);
+}
+.content-text-boxing h4,h4.title-yoga {
+  font-size: 27px;
+  
+}
+.p-content-sec2{
+  width:100%;
+}
+}
+.banner-PT-yoga{
+  background: linear-gradient(to right, #0000008f,#0000008f) ,url('https://www.nemesismodels.com/wp-content/uploads/2018/08/mingjordans.jpg') center/cover no-repeat;
+}
+a.wow.bounceInRight.button-yogo-add{
+  padding-left: 44px;
+  padding-right: 44px;
+  border-color: #1e1e28;
+  background-color: #1e1e28;
+  color: #fff !important;
+  padding: 0.675rem 3rem;
+}

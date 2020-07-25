@@ -1,0 +1,53 @@
+.productslist-center {
+    width: 80vw;
+}
+.productslist {
+    padding: 0rem 0;
+}
+.filter-container {
+    padding: 2rem 0;
+}
+.banner-productss{
+    position: relative;
+    background: linear-gradient(to right, #0000008f,#0000008f) ,url(../img/slide-1.jpg) ;
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+  }
+  .banner-products-content{
+    position: relative;
+    background: linear-gradient(to right, #0000008f,#0000008f) ,url(../img/1.jpg) ;
+    min-height: 50vh;
+
+  }
+  .slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: CENTER;
+}
+.slider-text h2 {
+    color: white;
+    font-family: 'Baloo'!important;
+    font-size: 40px;
+}
+.content-text h2 {
+    margin-bottom: 20px;
+}
+a.btn-primary.wow.bounceInLeft {
+    color: #111111;
+    font-weight: 600;
+    transition: .5s ease-in-out;
+}
+a.btn-primary.wow.bounceInLeft:hover{
+    border:3px solid #23ff18;
+}
+.product-list-whey{
+    background: linear-gradient(to right, #0000008f,#0000008f) ,url(../img/wheyhero4.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+.jumbotron.jumbotron-fluid {
+    padding-bottom: 0;
+}

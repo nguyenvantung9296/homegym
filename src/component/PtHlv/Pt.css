@@ -1,0 +1,607 @@
+
+/* BEGIN-SECTION-1 */
+.sec-1{
+    padding: 65px 0 140px;
+}
+h2.title-decor{
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom:20px;
+    font-family: 'Baloo'!important;
+    font-size:45px;
+}
+h2.title-decor span{
+color:#23ff18;
+font-family: 'Baloo'!important;
+font-size:55px;
+}
+h2.title-decor{
+    position: relative;
+}
+h2.title-decor:before{
+    content:'';
+    height:4px;
+    width:45px;
+    bottom: 0;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    background: #111111;
+}
+.slogan {
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto 40px;
+    color: #3e3e3e;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: .25s ease-in;
+}
+.out-trainer-item{
+    display:flex;
+    justify-content: space-between;
+}
+i.fa.fa-twitter,i.fa.fa-youtube,i.fa.fa-instagram,i.fa.fa-facebook{
+    color:#23ff18;
+    font-size:20px;
+    transition: .25s ease-in;
+}
+ul.social-list{
+    display:flex;
+}
+ul.social-list li{
+    padding:10px 10px;
+}
+.out-trainer-info{
+
+    padding: 30px 30px;
+    text-align: justify;
+}
+.out-trainer-info h3 a{
+    color: #111111;
+    font-family: 'Baloo'!important;
+    font-size:30px;
+    transition: .25s ease-in;
+}
+.prof{
+    font-family: 'Baloo'!important;
+    font-size:23px; 
+    color:#23ff18;
+    transition: .25s ease-in;
+}
+.out-trainer-info p {
+    color: #3e3e3e;
+    margin-bottom: 17px;
+    transition: .25s ease-in;
+    text-align: justify;
+    font-size:18px;
+}
+.sec-1{
+    width:85%;
+    margin:auto;
+   
+}
+section.s-crossfit-banner{
+    margin-bottom: 50px;
+}
+.out-trainer-col{
+    margin-bottom:30px;
+}
+.out-trainer-item{
+    background: #efefef;
+}
+.out-trainer-col:nth-child(2n) {
+    transform: translateY(30px);
+}
+.out-trainer-item{
+    cursor: pointer;
+}
+.out-trainer-item:hover{
+    background: #23ff18d1;
+}
+.out-trainer-item:hover .prof{
+    color: white;
+}
+.out-trainer-item:hover i{
+    color:white;
+}
+/* END-SECTION-1 */
+
+
+
+/* BEGIN-SEC2 */
+.s-crossfit-banner {
+    position: relative;
+    background-color: #23ff18;
+    display: flex;
+    justify-content: space-between;
+}
+.crossfit-banner-left{
+    background-image: url('../img/img-sec2.jpg');
+    height: 350px;
+    width: 44.5%;
+    background-position: center;
+    background-size: cover;
+}
+.crossfit-banner-right{
+    width:54.55%;
+    padding: 20px 15px 10px 124px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.crossfit-banner-right:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/bg-crossfit.svg');
+}
+.text-top{
+    font-size:35px;
+    font-family: 'Baloo'!important;
+}
+.crossfit-banner-right h2{
+color:white;
+font-size: 90px;
+font-family: 'Baloo'!important;
+text-transform: uppercase;
+}
+.text-bottom{
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Baloo'!important;
+    font-size:40px;
+}
+.crossfit-banner-right .text-bottom a {
+    font-weight: 700;
+    color: #111111;
+    position: relative;
+    font-family: 'Baloo'!important;
+}
+.crossfit-banner-right .text-bottom a:before{
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: -1px;
+    left: 0;
+    transition: .3s ease;
+    background-color: white;
+    height: 3px;
+    font-family: 'Baloo'!important;
+    width: 100%;
+}
+.crossfit-banner-right .text-bottom a:hover{
+color:white;
+}
+.crossfit-banner-right .text-bottom a:hover:before{
+    width: 0%;
+}
+
+
+
+
+
+
+/* BEFIN-REVIEW-GYMHOME */
+.sec3{
+  margin-bottom: 50px;
+}
+.review-gymhome{
+  padding:80px 0;
+  width:100%;
+  background-color: #efefef;
+}
+.content-review{
+width:90%;
+margin:auto;
+}
+.reivew-pics img{
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin:20px;
+  filter: grayscale(100%);
+}
+.content-review{
+  text-align: center;
+}
+.review-p {
+  max-width: 700px;
+  margin: auto;
+}
+.content-review-p{
+  display:none;
+}
+.active-review{
+  filter: none;
+}
+.reivew-pics img{
+  cursor: pointer;
+}
+.reivew-pics img:hover{
+  filter:none;
+}
+.reivew-pics img.active-review{
+  filter:none;
+}
+.content-review-p.active-review{
+  display:block;
+  background: none;
+    }
+    .content-review h2{
+      color:#23ff18;
+      font-family: 'Baloo'!important;
+    }
+    .content-review h2 span{
+      font-family: 'Baloo'!important;
+      color:#111111;
+    }
+
+/* END-REVIEW-GYMHOME */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* foodter */
+.map_box{
+    margin-top:100px;
+}
+iframe {
+    width: 100%;
+}
+.main-footer {
+    position: relative;
+    background: #111111;
+    color: #ffffff;
+    font-size:15px;
+  }
+  .carousel-inner, .carousel, .item, .container, .fill {
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+  }
+  .main-footer .footer-widget-area {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  .main-footer .footer-widget-area .footer-widget {
+    padding-bottom: 30px;
+    padding-left: 0px;
+  }
+ 
+  .main-footer .logo_name {
+    margin: 0;
+    margin-bottom: 25px;
+   
+  }
+  .header-lower .logo .logo_name, .main-footer .logo_name {
+    margin: 8px auto;
+    color: #82b53f;
+    font-weight: 800;
+    font-family: "Baloo" !important;
+  }
+  .header-lower .logo .logo_name .white_text, .main-footer .logo_name .white_text {
+    color: #ffffff;
+    font-family: "Baloo" !important;
+  }
+  .main-footer .footer-widget-area .footer-widget {
+    padding-bottom: 30px;
+    padding-left: 0px;
+  }
+  .footer-widget.quick-links.col-md-2.col-sm-6.col-xs-12{
+      padding-left: 30px !important;
+  
+  }
+  
+  ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .widget-link ul, li a{
+    text-decoration: none;
+    color:white;
+  }
+  
+  .row-foodter{
+    width:80%;
+    margin:auto;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  
+  .clearfix .image a img{
+    width:100%;
+  }
+  
+  .footer-bottom{
+    padding: 15px;
+    background: rgba(55, 215, 47, 0.83);
+  }
+  .widget-link ul li{
+    padding: 4px;
+    font-size:15px;
+  }
+  
+  .widget-post .image {
+    position: relative;
+    float: left;
+    width: 23.333%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    height:100px;
+    object-fit: cover;
+  }
+   i.fa.fa-phone,i.fa.fa-envelope,i.fa.fa-map-marker{
+    font-size: 20px;
+    color: #82b53f;
+    padding-right: 7px;
+    padding-left: 7px;
+  } 
+  .address_box{
+    margin-bottom: 20px;
+  }
+  .col-xs-12 h4{
+    font-family: "Baloo" !important;
+    margin-bottom: 20px;
+  }
+  .textBox a{
+    color:black;
+  }
+  .auto-container.text-center{
+    color:#111111;
+    font-weight: 600;
+  }
+  @media(max-width:1295px){
+    .widget-post .image{
+      width: 30.333%;
+      height:75px;
+      margin-bottom: 0;
+    }
+  }
+  @media(max-width:990px) and (min-width:600px){
+  .col-sm-6 {
+      width: 50%;
+  }
+  .col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 50%;
+    max-width: 49.666667%;
+  }
+  .footer-widget.quick-links.col-md-2.col-sm-6.col-xs-12 {
+    padding-left: 74px !important;
+  }
+  .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 50%;
+    max-width: 50.333333%;
+  }
+  .footer-widget.address.col-md-3.col-sm-6.col-xs-12{
+    margin-top:20px;
+    padding-left: 74px !important;
+  }
+  }
+  @media(max-width:600px){
+    .col-md-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .col-md-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 100%;
+      max-width: 99.666667%;
+    }
+    .col-md-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .footer-widget{
+      margin-bottom: 40px;
+    }
+    .footer-widget.quick-links.col-md-2.col-sm-6.col-xs-12 {
+      padding-left: 10px !important;
+  }
+  .background-img3{
+      display:none;
+  }
+  }
+  @media(max-width:450px){
+    .widget-post .image{
+      width: 33.333%;
+    }
+    .row-foodter {
+      width: 90%;
+    }
+  }
+  /* end-foodter */
+  header{
+    padding:20px 100px;
+  }
+  .banner{
+    height:10vh;
+    background-image: none;
+    background: #23ff18;
+  }
+  @media(max-width:600px){
+    header{
+        padding:20px 20px;
+      }
+      a.logo.logo1,a.logo span{
+          font-size:27px;
+      }
+  }
+  .back-top {
+    font-size: 32px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #23ff18d4;
+    color: #fff;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 1000;
+    display: none;
+}
+.s-crossfit-banner{
+  background-image: url(../img/bg2-2.jpg);
+  height:300px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.content-s-crossfit{
+  width:70%;
+  height:80%;
+
+}
+.content-s-crossfit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-s-crossfit h3{
+  font-size:65px;
+  font-family: 'Baloo';
+  width:70%;
+  margin-top:60px;
+
+}
+.content-s-crossfit button{
+  padding: 15px 35px;
+  background: unset;
+  color: black;
+  border:none;
+  border: 3px solid black;
+  font-size: 30px;
+  font-family: 'Baloo';
+
+}
+.col-sm-4.col-sm-4s:before {
+    content: '';
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    top: -30px;
+    left: -30px;
+    background: #23ff18;
+    z-index: 1;
+}
+.col-sm-4.col-sm-4s img.img-fluid.width100{
+  height:500px;
+  object-fit: cover;
+}
+.banner-pt-gym{
+  background: linear-gradient(to right, #0000008f,#0000008f) ,url('https://the-lr.com/wp-content/uploads/2020/03/LR1341_SR_MY_PROTEIN_AUG18_0824_SamRobinson_Shot_07_7030_F1.jpg') center/cover no-repeat;
+}
+@media(max-width:1200px){
+.col-md-6.out-trainer-col.wow.bounceInUp{
+  -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.out-trainer-col:nth-child(2n) {
+  transform: translateY(0px);
+}
+.row.section--hlvpt{
+  width:100%;
+}
+section.sec-1.sec--pt {
+  width: 98%;
+}
+}
+@media(max-width:620px){
+  .out-trainer-info p {
+    font-size: 14px;
+}
+.out-trainer-info h3 a {
+  font-size: 20px;
+}
+.out-trainer-info h3{
+  font-size: 1em;
+}
+.prof {
+  font-size: 16px;
+}
+h2.title-decor span,h2.title-decor {
+  font-size: 30px;
+}
+p.slogan.wow.bounceInUp {
+  font-size: 14px;
+}
+.content-text-boxing h4 {
+  font-size: 25px;
+  font-family: 'Baloo'!important;
+}
+}
+@media(max-width:490px){
+  .out-trainer-item a img {
+    height: 100%;
+    width: 130px;
+    object-fit: cover;
+}
+.content-text.wow.bounceInUp h2,.content-text.wow.bounceInUp h4{
+  font-size:30px;
+}
+.slider-text h2 span {
+  font-size: 30px;
+}
+ul.social-list{
+  display:none;
+}
+.out-trainer-info h3 a {
+  font-size: 16px;
+}
+.prof {
+  font-size: 15px;
+}
+.out-trainer-info p {
+  font-size: 12px;
+}
+.gym-home.wow.bounceInDown .h2 h2,.gym-home.wow.bounceInDown .h2 h2 span{
+  font-size:30px;
+}
+.gym-home.wow.bounceInDown p{
+  font-size:14px;
+}
+.content-coll {
+  padding: 30px 0;
+}
+}
