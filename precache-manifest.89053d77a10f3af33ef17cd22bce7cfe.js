@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "037f05239f2c9a2b8b0529dd81646c2c",
+    "revision": "18c5d359eddc95e2124cdfdefcd23bb9",
     "url": "/homegym/index.html"
   },
   {
-    "revision": "bef4829c45e75c626702",
-    "url": "/homegym/static/css/main.09720341.chunk.css"
+    "revision": "c52630bdff41263eb3a9",
+    "url": "/homegym/static/css/main.186dc684.chunk.css"
   },
   {
-    "revision": "b034b45e9b40b37303f0",
-    "url": "/homegym/static/js/2.03078829.chunk.js"
+    "revision": "dd43752d812e94c81500",
+    "url": "/homegym/static/js/2.f0161f94.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/homegym/static/js/2.03078829.chunk.js.LICENSE.txt"
+    "url": "/homegym/static/js/2.f0161f94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bef4829c45e75c626702",
-    "url": "/homegym/static/js/main.c72b98c7.chunk.js"
+    "revision": "c52630bdff41263eb3a9",
+    "url": "/homegym/static/js/main.073c3b78.chunk.js"
   },
   {
     "revision": "5975107be223ae9c4002",

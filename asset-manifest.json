@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/homegym/static/css/main.09720341.chunk.css",
-    "main.js": "/homegym/static/js/main.c72b98c7.chunk.js",
-    "main.js.map": "/homegym/static/js/main.c72b98c7.chunk.js.map",
+    "main.css": "/homegym/static/css/main.186dc684.chunk.css",
+    "main.js": "/homegym/static/js/main.073c3b78.chunk.js",
+    "main.js.map": "/homegym/static/js/main.073c3b78.chunk.js.map",
     "runtime-main.js": "/homegym/static/js/runtime-main.58728070.js",
     "runtime-main.js.map": "/homegym/static/js/runtime-main.58728070.js.map",
-    "static/js/2.03078829.chunk.js": "/homegym/static/js/2.03078829.chunk.js",
-    "static/js/2.03078829.chunk.js.map": "/homegym/static/js/2.03078829.chunk.js.map",
+    "static/js/2.f0161f94.chunk.js": "/homegym/static/js/2.f0161f94.chunk.js",
+    "static/js/2.f0161f94.chunk.js.map": "/homegym/static/js/2.f0161f94.chunk.js.map",
     "index.html": "/homegym/index.html",
-    "precache-manifest.c6d771f95efd7d592f2c5e8334d1e4bc.js": "/homegym/precache-manifest.c6d771f95efd7d592f2c5e8334d1e4bc.js",
+    "precache-manifest.89053d77a10f3af33ef17cd22bce7cfe.js": "/homegym/precache-manifest.89053d77a10f3af33ef17cd22bce7cfe.js",
     "service-worker.js": "/homegym/service-worker.js",
-    "static/css/main.09720341.chunk.css.map": "/homegym/static/css/main.09720341.chunk.css.map",
-    "static/js/2.03078829.chunk.js.LICENSE.txt": "/homegym/static/js/2.03078829.chunk.js.LICENSE.txt",
-    "static/media/Promotion.css": "/homegym/static/media/bg-price-2.3a79441e.svg",
+    "static/css/main.186dc684.chunk.css.map": "/homegym/static/css/main.186dc684.chunk.css.map",
+    "static/js/2.f0161f94.chunk.js.LICENSE.txt": "/homegym/static/js/2.f0161f94.chunk.js.LICENSE.txt",
+    "static/media/product.css": "/homegym/static/media/wheyhero4.cfcdb617.jpg",
     "static/media/yoga.css": "/homegym/static/media/yogo-login.499618fb.png",
     "static/media/PicsArt.jpg": "/homegym/static/media/PicsArt.52114399.jpg",
     "static/media/arow1.png": "/homegym/static/media/arow1.a08af934.png",
     "static/media/lostdate.css": "/homegym/static/media/bg-2.62cd3a23.jpg",
     "static/media/Pt.css": "/homegym/static/media/img-sec2.35c02e65.jpg",
+    "static/media/Promotion.css": "/homegym/static/media/bg-price-2.3a79441e.svg",
     "static/media/foodter.css": "/homegym/static/media/choose-us.ca0c553c.jpg",
     "static/media/ed6c933692a569fb30b4.jpg": "/homegym/static/media/ed6c933692a569fb30b4.757b57d8.jpg",
     "static/media/icon1.svg": "/homegym/static/media/icon1.0ef3a7f4.svg",
@@ -29,13 +30,12 @@
     "static/media/App.css": "/homegym/static/media/pocketaudio_summary_bg02.4323a071.jpg",
     "static/media/boxing.css": "/homegym/static/media/page-1_slide01.7809f1ff.jpg",
     "static/media/shopping-cart-solid.svg": "/homegym/static/media/shopping-cart-solid.8bf1af37.svg",
-    "static/media/product.css": "/homegym/static/media/wheyhero4.cfcdb617.jpg",
     "static/media/SingleProduct.css": "/homegym/static/media/wheyhero1.c56837c1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.58728070.js",
-    "static/js/2.03078829.chunk.js",
-    "static/css/main.09720341.chunk.css",
-    "static/js/main.c72b98c7.chunk.js"
+    "static/js/2.f0161f94.chunk.js",
+    "static/css/main.186dc684.chunk.css",
+    "static/js/main.073c3b78.chunk.js"
   ]
 }
